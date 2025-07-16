@@ -3,7 +3,7 @@
 ### Description
 
 This is a telegram bot written in python to monitor cryptocurrency prices on CEX exchanges
-(Binance, ByBit, MEXC, Gate.io and BingX)
+(Binance, ByBit, MEXC, Gate.io and BingX) some new CEX's will be added lately
 
 ## Installation
 
