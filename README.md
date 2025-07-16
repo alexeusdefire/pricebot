@@ -1,6 +1,6 @@
 # Crypto-price Telegram bot
 
-### Description
+## Description
 
 This is a telegram bot written in python to monitor cryptocurrency prices on CEX exchanges
 (Binance, ByBit, MEXC, Gate.io and BingX, OKX) some new CEX's will be added later
@@ -27,11 +27,6 @@ git clone https://github.com/alexeusdefire/pricebot.git
 pyhon -m venv .venv
 ```
 ### 7. Activate venv:
-
-### For PowerShell:
-```
-.\venv\Scripts\Activate.ps1
-```
 
 ### For CMD:
 ```
