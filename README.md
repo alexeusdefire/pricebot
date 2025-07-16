@@ -55,3 +55,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+### 9. Type /start to start the bot
+
+### 10. Type any ticker of crypto to see current price
