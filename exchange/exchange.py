@@ -16,6 +16,3 @@ class BaseExchange:
 
     def format_ticker(self, ticker):
         return f"{ticker.upper()}USDT"
-
-    async def get_price(self, ticker):
-        return None
