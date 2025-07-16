@@ -4,7 +4,7 @@ from .bybit import BybitExchange
 from .mexc import MexcExchange
 from .gate import GateExchange
 from .bingx import BingxExchange
-
+from .okx import OKXExchange
 
 class ExchangeManager:
     def __init__(self):
@@ -13,7 +13,8 @@ class ExchangeManager:
             BybitExchange(),
             MexcExchange(),
             GateExchange(),
-            BingxExchange()
+            BingxExchange(),
+            OKXExchange()
         ]
 
     async def initialize(self):
