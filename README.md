@@ -7,28 +7,26 @@ This is a telegram bot written in python to monitor cryptocurrency prices on CEX
 
 ## Installation
 
-Use the [git](https://git-scm.com/) to clone repository 
+### 1. Use the [git](https://git-scm.com/) to clone repository 
 
 ```bash
 git clone https://github.com/alexeusdefire/pricebot.git
 ```
 
-## Usage
+### 2. Go to Telegram and search for @BotFather (https://t.me/botfather)
 
-### 1. Go to Telegram and search for @BotFather (https://t.me/botfather)
+### 3. Create your own bot with BotFather (use this [docs](https://core.telegram.org/bots))
 
-### 2. Create your own bot with BotFather (use this [docs](https://core.telegram.org/bots))
+### 4. After cloning the repository, go to the directory and create an .env file in the root of the directory
 
-### 3. After cloning the repository, go to the directory and create an .env file in the root of the directory
+### 5. Put your token from BotFather to .env file
 
-### 4. Put your token from BotFather to .env file
-
-### 5. Go to terminal and create virtual environment:
+### 6. Go to terminal and create virtual environment:
 
 ```bash
 pyhon -m venv .venv
 ```
-### 6. Activate venv:
+### 7. Activate venv:
 
 ### For PowerShell:
 ```
@@ -45,17 +43,19 @@ pyhon -m venv .venv
 source .venv/Scripts/activate
 ```
 
-### 7. Install dependencies
+### 8. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 8. Run main.py in IDE or write in terminal:
+### 9. Run main.py in IDE or write in terminal:
 ```
 python main.py
 ```
 
-### 9. Type /start to start the bot
+## Usage
 
-### 10. Type any ticker of crypto to see current price
+### 1. Type /start to start the bot
+
+### 2. Type any ticker of crypto to see current price
